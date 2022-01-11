@@ -1,5 +1,9 @@
 # Test gas costs
 
+This repo is a support for the answer to the question [_What is the most gas efficient way to get the value of a bit in an unsigned integer?_](https://ethereum.stackexchange.com/questions/118140/what-is-the-most-gas-efficient-way-to-get-the-value-of-a-bit-in-an-unsigned-inte/118392?noredirect=1#comment141322_118392) posted on StackExchange.
+
+Please don't take it as an example of good programming, it is just a very raw and fast way to test gas costs ;)
+
 Start a local geth node in dev mode with
 
 ```bash
