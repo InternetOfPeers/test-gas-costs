@@ -1,6 +1,6 @@
 # Test gas costs
 
-This repo is a support for the answer to the question [_What is the most gas efficient way to get the value of a bit in an unsigned integer?_](https://ethereum.stackexchange.com/questions/118140/what-is-the-most-gas-efficient-way-to-get-the-value-of-a-bit-in-an-unsigned-inte/118392?noredirect=1#comment141322_118392) posted on StackExchange.
+This repo is a support for the answers to the questions [_What is the most gas efficient way to get the value of a bit in an unsigned integer?_](https://ethereum.stackexchange.com/questions/118140/what-is-the-most-gas-efficient-way-to-get-the-value-of-a-bit-in-an-unsigned-inte/118392?noredirect=1#comment141322_118392) and [_What are the pros and cons of emitting events vs return statements?_](https://ethereum.stackexchange.com/questions/119720/what-are-the-pros-and-cons-of-emitting-events-vs-return-statements) posted on StackExchange.
 
 Please don't take it as an example of good programming, it is just a very raw and fast way to test gas costs ;)
 
@@ -13,38 +13,38 @@ geth --http --dev
 Then run
 
 ```bash
+truffle compile
 truffle test
 ```
 
 Output will be something like this
 
 ```bash
+Using network 'development'.
+
 Compiling your contracts...
 ===========================
-> Compiling .\contracts\Migrations.sol
-> Compiling .\contracts\TestGasCosts.sol
-> Compilation warnings encountered:
+> Everything is up to date, there is nothing to compile.
 
-    Warning: Function state mutability can be restricted to pure
-   --> project:/contracts/TestGasCosts.sol:108:5:
-    |
-108 |     function getValue5(uint16 four_nibbles, uint16 index) public view returns(uint16) {
-    |     ^ (Relevant source part starts here and spans across multiple lines).
-
-> Compiled successfully using:
-   - solc: 0.8.10+commit.fc410830.Emscripten.clang
+  Contract: TestEvents
+testReturnData 4235
+    ✓ check costs 1
+testReturnAndUseData 4247
+    ✓ check costs 2
+testEmitData 5681
+    ✓ check costs 3
 
   Contract: TestGasCosts
 test1 188 188 188 188
-    √ check costs 1 (73ms)
+    ✓ check costs 1
 test2 142 142 142 142
-    √ check costs 2 (100ms)
+    ✓ check costs 2
 test3 93 103 103 103
-    √ check costs 3 (92ms)
+    ✓ check costs 3
 test4 7 7 7 24
-    √ check costs 4 (93ms)
+    ✓ check costs 4
 test5 188 188 188 188
-    √ check costs 5 (1108ms)
+    ✓ check costs 5
 
-  5 passing (2s)
+  8 passing (415ms)
 ```
