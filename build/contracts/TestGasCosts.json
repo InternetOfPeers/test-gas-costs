@@ -13870,12 +13870,12 @@
     "1337": {
       "events": {},
       "links": {},
-      "address": "0x173327c419C1Ce2104F05790BCCaEa968B6c7982",
-      "transactionHash": "0x2cacb58f84be9b4b1cf2cc5689f2f4057baa6fd4cf2ac31e0ee229586fd2f52b"
+      "address": "0xfceB40fDFF3d8c3DC40fa3892e256a025B60be31",
+      "transactionHash": "0xf51e9c8c25212e81da3d6ae2bb06b21f6fa65d6e2c009036e2777bb78e044b98"
     }
   },
   "schemaVersion": "3.4.4",
-  "updatedAt": "2022-01-25T20:03:05.322Z",
+  "updatedAt": "2022-02-03T01:24:32.509Z",
   "networkType": "ethereum",
   "devdoc": {
     "details": "TestGasCosts",

@@ -1,6 +1,10 @@
 # Test gas costs
 
-This repo is a support for the answers to the questions [_What is the most gas efficient way to get the value of a bit in an unsigned integer?_](https://ethereum.stackexchange.com/questions/118140/what-is-the-most-gas-efficient-way-to-get-the-value-of-a-bit-in-an-unsigned-inte/118392?noredirect=1#comment141322_118392) and [_What are the pros and cons of emitting events vs return statements?_](https://ethereum.stackexchange.com/questions/119720/what-are-the-pros-and-cons-of-emitting-events-vs-return-statements) posted on StackExchange.
+This repo is a support for the answers to the following questions posted on StackExchange:
+
+- [_What is the most gas efficient way to get the value of a bit in an unsigned integer?_](https://ethereum.stackexchange.com/questions/118140/what-is-the-most-gas-efficient-way-to-get-the-value-of-a-bit-in-an-unsigned-inte/118392?noredirect=1#comment141322_118392)
+- [_What are the pros and cons of emitting events vs return statements?_](https://ethereum.stackexchange.com/questions/119720/what-are-the-pros-and-cons-of-emitting-events-vs-return-statements)
+- [_Using assembly to store more values per word_](https://ethereum.stackexchange.com/questions/120627/using-assembly-to-store-more-values-per-word)
 
 Please don't take it as an example of good programming, it is just a very raw and fast way to test gas costs ;)
 
