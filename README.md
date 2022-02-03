@@ -50,5 +50,13 @@ test4 7 7 7 24
 test5 188 188 188 188
     ✓ check costs 5
 
-  8 passing (415ms)
+  Contract: TestPackingUint16
+setPackedUint16 28901
+    ✓ check costs 1 (1014ms)
+testSetUint16 88443
+    ✓ check costs 2
+testPack 22134
+    ✓ check costs 3
+
+  11 passing (2s)
 ```
