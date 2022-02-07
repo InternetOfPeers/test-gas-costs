@@ -2,6 +2,7 @@ const TestGasCosts = artifacts.require("TestGasCosts");
 const TestEvents = artifacts.require("TestEvents");
 const PackedUint16 = artifacts.require("packedUint16");
 const TestPackingUint16 = artifacts.require("TestPackingUint16");
+const TestLoops = artifacts.require("TestLoops");
 
 module.exports = function (deployer) {
 	deployer.deploy(TestGasCosts);
@@ -9,4 +10,5 @@ module.exports = function (deployer) {
 	deployer.deploy(PackedUint16);
 	deployer.link(PackedUint16, TestPackingUint16);
 	deployer.deploy(TestPackingUint16);
+	deployer.deploy(TestLoops);
 };
