@@ -44,7 +44,7 @@ testEmitData 5681
 
   Contract: TestGasCosts
 test1 188 188 188 188
-    ✓ check costs 1
+    ✓ check costs 1 (1026ms)
 test2 142 142 142 142
     ✓ check costs 2
 test3 93 103 103 103
@@ -54,13 +54,20 @@ test4 7 7 7 24
 test5 188 188 188 188
     ✓ check costs 5
 
+  Contract: TestLoops
+testPlusPlusI 43068
+    ✓ check costs 1
+testIPlusPlus 43068
+    ✓ check costs 2
+
   Contract: TestPackingUint16
 setPackedUint16 28901
-    ✓ check costs 1 (1014ms)
+    ✓ check costs 1 (1016ms)
 testSetUint16 88443
     ✓ check costs 2
 testPack 22134
     ✓ check costs 3
 
-  11 passing (2s)
+
+  13 passing (4s)
 ```
