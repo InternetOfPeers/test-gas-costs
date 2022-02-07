@@ -8,7 +8,7 @@ This repo is a support for the answers to the following questions posted on Stac
 
 And to the tweet:
 
-- [seems like `++i` is about 5 gas cheaper per loop—guessing this is because a temporary variable doesn't have to be created to return the value of `i` prior to incrementing when it's `++i`?](https://twitter.com/fiveoutofnine/status/1490698614888275970)
+- [_seems like `++i` is about 5 gas cheaper per loop—guessing this is because a temporary variable doesn't have to be created to return the value of `i` prior to incrementing when it's `++i`?_](https://twitter.com/fiveoutofnine/status/1490698614888275970)
 
 Please don't take it as an example of good programming, it is just a very raw and fast way to test gas costs ;)
 
