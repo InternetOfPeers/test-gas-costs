@@ -6,6 +6,10 @@ This repo is a support for the answers to the following questions posted on Stac
 - [_What are the pros and cons of emitting events vs return statements?_](https://ethereum.stackexchange.com/questions/119720/what-are-the-pros-and-cons-of-emitting-events-vs-return-statements)
 - [_Using assembly to store more values per word_](https://ethereum.stackexchange.com/questions/120627/using-assembly-to-store-more-values-per-word)
 
+And to the tweet:
+
+- [seems like `++i` is about 5 gas cheaper per loop—guessing this is because a temporary variable doesn't have to be created to return the value of `i` prior to incrementing when it's `++i`?](https://twitter.com/fiveoutofnine/status/1490698614888275970)
+
 Please don't take it as an example of good programming, it is just a very raw and fast way to test gas costs ;)
 
 Start a local geth node in dev mode with
